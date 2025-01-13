@@ -85,13 +85,3 @@ python run_glue.py \
 ```
 
 ## Citation
-```bibtex
-@misc{zhao2024galore,
-      title={GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection}, 
-      author={Jiawei Zhao and Zhenyu Zhang and Beidi Chen and Zhangyang Wang and Anima Anandkumar and Yuandong Tian},
-      year={2024},
-      eprint={2403.03507},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
