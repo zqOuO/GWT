@@ -1,6 +1,6 @@
-# GWT: Gradient Wavelet Transform for Memory-Efficient LLM Training
+# Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training
 
-This repo contains the official pre-release version of GWT algorithm for the paper [GWT: Gradient Wavelet Transform for Memory-efficient LLM Training](), and is highly build upon the previous work proposed by [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://arxiv.org/abs/2403.03507) and the [Pytorch wavelet toolbox](https://github.com/v0lta/PyTorch-Wavelet-Toolbox). Currently, ptwt does not support fp16 format computations, so we made some adjustments to this box.
+This repo contains the official pre-release version of GWT algorithm for the paper [Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training](), and is highly build upon the previous work proposed by [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://arxiv.org/abs/2403.03507) and the [Pytorch wavelet toolbox](https://github.com/v0lta/PyTorch-Wavelet-Toolbox). Currently, ptwt does not support fp16 format computations, so we made some adjustments to this box.
 
 <div align="center">
   <img title="Visuliazation the approximate coefficients of 2-level DHT on image (rescaled for visualizability)" img src=".\figures\wavelet_transform_visula_cat.jpg" alt="Image 2" style="width: 800px; margin: 0 auto;">
@@ -24,7 +24,7 @@ param_groups = [{'params': regular_params}, {'params': wave_params, 'scale': arg
 optimizer = WaveAdamW(param_groups, lr=args.lr, weight_decay=args.weight_decay)
 ```
 ## Benchmark 1: Pre-Training LLaMA on C4 dataset
-The scripts for pre-training LLaMA models on C4 dataset are in scripts/benchmark_c4 folder. The C4 dataset is available for download from [Hugging Face](https://huggingface.co/datasets/allenai/c4). We present the pre-trained LLaMA models in this [link](https://www.alipan.com/s/UPmQLTVm2iL).
+The scripts for pre-training LLaMA models on C4 dataset are in scripts/benchmark_c4 folder. The C4 dataset is available for download from [Hugging Face](https://huggingface.co/datasets/allenai/c4). We present the pre-trained LLaMA models in this [link](https://www.alipan.com/s/DvBSH7TkRBB).
 
 ### Script for pre-training LLaMA 1B model
 ```bash
