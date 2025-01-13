@@ -24,7 +24,7 @@ param_groups = [{'params': regular_params}, {'params': wave_params, 'scale': arg
 optimizer = WaveAdamW(param_groups, lr=args.lr, weight_decay=args.weight_decay)
 ```
 ## Benchmark 1: Pre-Training LLaMA on C4 dataset
-The scripts for pre-training LLaMA models on C4 dataset are in scripts/benchmark_c4 folder. The C4 dataset is available for download from [Hugging Face](https://huggingface.co/datasets/allenai/c4). We present the pre-trained LLaMA models in this [link](https://www.alipan.com/s/UPmQLTVm2iL).
+The scripts for pre-training LLaMA models on C4 dataset are in scripts/benchmark_c4 folder. The C4 dataset is available for download from [Hugging Face](https://huggingface.co/datasets/allenai/c4). We present the pre-trained LLaMA models in this [link](https://www.alipan.com/s/DvBSH7TkRBB).
 
 ### Script for pre-training LLaMA 1B model
 ```bash
