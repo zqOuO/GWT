@@ -20,11 +20,12 @@ pip install -r requirements
 
 ```python
 from galore_torch import WaveAdamW
-param_groups = [{'params': regular_params}, {'params': wave_params, 'scale': args.scale, 				'wave_type': args.wave_type, 'level': args.level, 'boundary': 			 				args.boundary}]
-optimizer = WaveAdamW(param_groups, lr=args.lr, weight_decay=args.weight_decay)
+    param_groups = [{'params': regular_params}, {'params': wave_params, 'scale': args.scale,
+    'wave_type': args.wave_type, 'level': args.level, 'boundary':args.boundary}]
+    optimizer = WaveAdamW(param_groups, lr=args.lr, weight_decay=args.weight_decay)
 ```
 ## Benchmark 1: Pre-Training LLaMA on C4 dataset
-The scripts for pre-training LLaMA models on C4 dataset are in scripts/benchmark_c4 folder. The C4 dataset is available for download from [Hugging Face](https://huggingface.co/datasets/allenai/c4). We present the pre-trained LLaMA models in this [link](https://www.alipan.com/s/DvBSH7TkRBB).
+The scripts for pre-training LLaMA models on the C4 dataset are in the scripts/benchmark_c4 folder. The C4 dataset is available for download from [Hugging Face](https://huggingface.co/datasets/allenai/c4). We present the pre-trained LLaMA models in this [link](https://www.alipan.com/s/DvBSH7TkRBB).
 
 ### Script for pre-training LLaMA 1B model
 ```bash
