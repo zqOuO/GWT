@@ -85,3 +85,13 @@ python run_glue.py \
 ```
 
 ## Citation
+```bibtex
+@misc{wen2025breakingmemorylimitsgradient,
+      title={Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training}, 
+      author={Ziqing Wen and Ping Luo and Jiahuan Wang and Xiaoge Deng and Jinping Zou and Kun Yuan and Tao Sun and Dongsheng Li},
+      year={2025},
+      eprint={2501.07237},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2501.07237}, 
+}
