@@ -11,6 +11,8 @@ bitsandbytes
 scipy
 scikit-learn
 evaluate
+tensorly
+ptwt
 torch==2.3.1+cu118
 torchaudio==2.3.1+cu118
 torchvision==0.18.1+cu118
