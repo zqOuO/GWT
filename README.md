@@ -1,9 +1,9 @@
 # Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training
 
-This repo contains the official pre-release version of GWT algorithm for the paper [Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training](), and is highly build upon the previous work proposed by [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://arxiv.org/abs/2403.03507) and the [Pytorch wavelet toolbox](https://github.com/v0lta/PyTorch-Wavelet-Toolbox). Currently, [ptwt](https://github.com/v0lta/PyTorch-Wavelet-Toolbox) does not support fp16 format computations, so we made some adjustments to this box named `ptwt1,pywt1`.
+This repo contains the official pre-release version of GWT algorithm for the paper [Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training](https://arxiv.org/abs/2501.07237), and is highly built upon the previous work proposed by [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://arxiv.org/abs/2403.03507) and the [Pytorch wavelet toolbox](https://github.com/v0lta/PyTorch-Wavelet-Toolbox). Currently, [ptwt](https://github.com/v0lta/PyTorch-Wavelet-Toolbox) does not support fp16 format computations, so we made some adjustments to this box named `ptwt1,pywt1`.
 
 <div align="center">
-  <img title="Visuliazation the approximate coefficients of 2-level DHT on image (rescaled for visualizability)" img src=".\figures\wavelet_transform_visula_cat.jpg" alt="Image 2" style="width: 800px; margin: 0 auto;">
+  <img title="Visualization the approximate coefficients of 2-level DHT on image (rescaled for visualizability)" img src=".\figures\wavelet_transform_visula_cat.jpg" alt="Image 2" style="width: 800px; margin: 0 auto;">
 </div>
 
 Visualization the approximate coefficients of 2-level Haar transform on image (rescaled for visual clarity).
