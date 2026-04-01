@@ -1,4 +1,4 @@
-# Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training
+# Gradient Compression via Frequency: Wavelet Subspaces Compact Optimizer States
 
 This repo contains the official pre-release version of GWT algorithm for the paper [Gradient Compression via Frequency:
 Wavelet Subspaces Compact Optimizer States](https://arxiv.org/abs/2501.07237), and is highly built upon the previous work proposed by [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://arxiv.org/abs/2403.03507) and the [Pytorch wavelet toolbox](https://github.com/v0lta/PyTorch-Wavelet-Toolbox). Currently, [ptwt](https://github.com/v0lta/PyTorch-Wavelet-Toolbox) does not support fp16 format computations, so we made some adjustments to this box named `ptwt1,pywt1`.
@@ -118,10 +118,10 @@ python run_glue.py \
 ## Citation
 
 ```bibtex
-@misc{wen2025breakingmemorylimitsgradient,
-      title={Breaking Memory Limits: Gradient Wavelet Transform Enhances LLMs Training}, 
-      author={Ziqing Wen and Ping Luo and Jiahuan Wang and Xiaoge Deng and Jinping Zou and Kun Yuan and Tao Sun and Dongsheng Li},
-      year={2025},
+@misc{wen2026gradientcompressionlowrankwavelet,
+      title={Gradient Compression Beyond Low-Rank: Wavelet Subspaces Compact Optimizer States}, 
+      author={Ziqing Wen and Ping Luo and Jiahuan Wang and Kun Yuan and Dongsheng Li and Tao Sun},
+      year={2026},
       eprint={2501.07237},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
