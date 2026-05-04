@@ -117,17 +117,10 @@ python run_glue.py \
 ## Citation
 
 ```bibtex
-<<<<<<< HEAD
-@misc{wen2025breakingmemorylimitsgradient,
+@misc{wen2026gwtscalableoptimizerstate,
       title={GWT: Scalable Optimizer State Compression for Large Language Model Training}, 
-      author={Ziqing Wen and Ping Luo and Jiahuan Wang and Xiaoge Deng and Jinping Zou and Kun Yuan and Tao Sun and Dongsheng Li},
-      year={2025},
-=======
-@misc{wen2026gradientcompressionlowrankwavelet,
-      title={Gradient Compression Beyond Low-Rank: Wavelet Subspaces Compact Optimizer States}, 
       author={Ziqing Wen and Ping Luo and Jiahuan Wang and Kun Yuan and Dongsheng Li and Tao Sun},
       year={2026},
->>>>>>> b0f4d0a7632504c0a813ad37aa3e53e57f0642ba
       eprint={2501.07237},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
